@@ -7,14 +7,12 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 `
 
 ## Step 2: Edit the file path to inclue homebrew
-- 
-`
+
+```
 echo "# Homebrew\nexport PATH=$HOME/homebrew/bin:\$PATH" >> .zshrc
-`
-- 
-`
 source ~/.zshrc
-`
+```
+&nbsp;  
 or just run 
 `
 export PATH=$HOME/homebrew/bin:$PATH
