@@ -35,6 +35,7 @@ open zshrc file with nano and edit:&nbsp;
 `
 nano ~/.zshrc
 `
+&nbsp;  
 paste this command at the end of the file:&nbsp;  
 `
 source ~/.nvm/nvm.sh
@@ -44,6 +45,7 @@ enter CTRL + X to save and exit nano
 
 Then both brew and nvm are good to go!
 
+## Notes
 Use nvm to install node & npm instead of Homebrew, as the prefix of homebrew is not /usr/local/, and it might fail to install some packages which require the prefix of homebrew should be usr/local.
 
 ## Reference:
