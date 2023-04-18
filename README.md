@@ -9,6 +9,8 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 ## Step 2: Edit the file path to inclue homebrew
 `
 echo "# Homebrew\nexport PATH=$HOME/homebrew/bin:\$PATH" >> .zshrc
+`
+`
 source ~/.zshrc
 `
 or just run 
@@ -18,10 +20,17 @@ export PATH=$HOME/homebrew/bin:$PATH
 ## Step 3: install nvm with brew
 `
 brew update
+`
+`
 brew install nvm
+`
+`
 mkdir ~/.nvm
-
+`
+`
 echo "export NVM_DIR=~/.nvm\nsource \$(brew --prefix nvm)/nvm.sh" >> .zshrc
+`
+`
 source ~/.zshrc
 `
 ## Step 4: config nvm in the zshrc file 
