@@ -46,7 +46,7 @@ enter CTRL + X to save and exit nano
 Then both brew and nvm are good to go!
 
 ## Notes
-Use nvm to install node & npm instead of Homebrew, as the prefix of homebrew is not /usr/local/, and it might fail to install some packages which require the prefix of homebrew should be usr/local.
+Use nvm to install node & npm instead of Homebrew, as the prefix of homebrew is not `/usr/local/`, and it might fail to install some packages which require the prefix of homebrew should be `/usr/local`.
 
 ## Reference:
 - [How to install nvm with brew](https://medium.com/devops-techable/how-to-install-nvm-node-version-manager-on-macos-with-homebrew-1bc10626181)
