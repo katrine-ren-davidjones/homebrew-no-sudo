@@ -31,17 +31,17 @@ source ~/.zshrc
 ```
 ## Step 4: config nvm in the zshrc file 
 
-open zshrc file with nano and edit:&nbsp;  
+- open zshrc file with nano and edit:&nbsp;  
 `
 nano ~/.zshrc
 `
 &nbsp;  
-paste this command at the end of the file:&nbsp;  
+- paste this command at the end of the file:&nbsp;  
 `
 source ~/.nvm/nvm.sh
 `
 &nbsp;  
-enter CTRL + X to save and exit nano 
+- enter CTRL + X to save and exit nano 
 
 Then both brew and nvm are good to go!
 
