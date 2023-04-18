@@ -41,7 +41,7 @@ nano ~/.zshrc
 source ~/.nvm/nvm.sh
 `
 &nbsp;  
-- enter CTRL + X to save and exit nano 
+- enter CTRL + X to save and exit nano, type Y to confirm the change and enter return
 
 Then both brew and nvm are good to go!
 
