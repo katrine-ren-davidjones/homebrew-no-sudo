@@ -18,31 +18,28 @@ or just run
 export PATH=$HOME/homebrew/bin:$PATH
 `
 ## Step 3: install nvm with brew
-`
+```
 brew update
-`
-`
+
 brew install nvm
-`
-`
+
 mkdir ~/.nvm
-`
-`
+
 echo "export NVM_DIR=~/.nvm\nsource \$(brew --prefix nvm)/nvm.sh" >> .zshrc
-`
-`
+
 source ~/.zshrc
-`
+```
 ## Step 4: config nvm in the zshrc file 
 
-open zshrc file with nano and edit:
+open zshrc file with nano and edit:&nbsp;  
 `
 nano ~/.zshrc
 `
-paste this command at the end of the file:
+paste this command at the end of the file:&nbsp;  
 `
 source ~/.nvm/nvm.sh
 `
+&nbsp;  
 enter CTRL + X to save and exit nano 
 
 Then both brew and nvm are good to go!
