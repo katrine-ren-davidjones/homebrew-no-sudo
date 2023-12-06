@@ -56,6 +56,6 @@ Use nvm to install node & npm instead of Homebrew, as the prefix of homebrew is 
 - [Solution of nvm not found error](https://stackoverflow.com/questions/16904658/node-version-manager-install-nvm-command-not-found)
 - [Create & Edit zshrc file on Mac](https://superuser.com/questions/886132/where-is-the-zshrc-file-on-mac)
 - [Github Issue: Debug Homebrew prefix warning](https://github.com/Homebrew/install/issues/121)
-
+- [How to install React by npm](https://dev.to/sushmeet/how-to-install-react-in-5-minutes-dmo)
 
 
